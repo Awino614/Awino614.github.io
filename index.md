@@ -135,9 +135,7 @@ Manage end-to-end technology project implementation for clients. Understand the 
 - *Email:* ongongaawino614@gmail.com or dorothyawino64@gmail.com
 - *Phone:* +254101724422 
 - *[GitHub]:*http://www.githubaccount.dorothyawino/
-  
-- *[LinkedIn]:*https://linkedin.com/in/dorothyawino
-
+  - *[LinkedIn]:*https://linkedin.com/in/dorothyawino
 ---
 
 > **“Data is the new oil, but insight is the engine.”**
