@@ -2,19 +2,19 @@ title: "DOROTHY AWINO ONGONGA"
 email: "ongongaawino614@gmail.com"
 description: "Actuary | FULL STACK Software Developer | Graphic Designer | Data Scientist & ANALYST | AI & ML"
 baseurl: "" 
-url: "https://dorothyawino.github.io" # your GitHub Pages URL
+url: "https://dorothyawino.github.io"
 github_username: dorothyawino
-linkedin_username: dorothy awino
+linkedin_username: dorothyawino
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "mint"
 
 # Author details
-author: "Dorothy Awino Ongonga"
+author:
   name: "Dorothy Awino Ongonga"
-  avatar: "assets/profile-photo.jpg"
-  bio: "Go Forth,Above and Beyond For Whatever You Desire Is Already In Existence"
+  avatar: "/assets/profile-photo.jpg"
+  bio: "Go Forth, Above and Beyond For Whatever You Desire Is Already In Existence"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -51,7 +51,7 @@ plugins:
 paginate: 5
 paginate_path: "/page:num/"
 
-# Timezone (Optional but recommended)
+# Timezone
 timezone: Africa/Nairobi
 
 # Output URL structure
@@ -61,6 +61,7 @@ permalink: /:categories/:title/
 include:
   - _pages
 
+# Collections
 collections:
   projects:
     output: true
