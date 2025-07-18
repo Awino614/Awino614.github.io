@@ -171,7 +171,9 @@ Designed logos and visual content tailored for digital branding and social media
 ### ☁ Cloud Computing
  
 Successfully passed the AWS Certified Cloud Practitioner exam.
-**Occupations**
+
+**OCCUPATIONS**
+
 **Cloud Implementation Engineers**
 Assist in the migration of data and services from physical IT infrastructure to virtual environments. Conduct tests and troubleshooting activities to ensure smooth transition and continued customer satisfaction thereafter.
 
