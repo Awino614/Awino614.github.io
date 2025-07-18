@@ -7,6 +7,5 @@ main:
     url: /cv/
   - title: "Publications"
     url: /publications/
-    children:
-      - title: "Voluntary & Humanitarian Work"
+  - title: "Voluntary & Humanitarian Work"
         url: /voluntary-humanitarian-work/
