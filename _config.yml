@@ -62,11 +62,12 @@ permalink: /:categories/:title/
 include:
   - _pages
 
-# Collections
 collections:
   projects:
     output: true
     permalink: /projects/:name/
+  posts:
+    output: true
 
 # Layout defaults
 defaults:
