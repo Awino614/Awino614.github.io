@@ -65,7 +65,7 @@ include:
 collections:
   projects:
     output: true
-    permalink: /_projects/data-science-analysis.md/
+    permalink: /_projects/:name/
   posts:
     output: true
 
