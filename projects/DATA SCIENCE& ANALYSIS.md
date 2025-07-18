@@ -5,14 +5,15 @@ layout: single
 collection: projects
 categories: 
   - Data Science
-  - Business Intelligence
-tags:
   - Data Analysis
+
+tags:
+  - Business Intelligence
   - EDA
   - Power BI
   - Tableau
-  - Python
-  - Pandas
+  - kaggle
+
 ---
 
 Analyzed a retail sales dataset to uncover trends and drive strategic business decisions:
