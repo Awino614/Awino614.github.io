@@ -5,6 +5,7 @@ description: >-
 baseurl: "" # don't change this for GitHub Pages
 url: "https://dorothyawino.github.io" # your GitHub Pages URL
 github_username: dorothyawino
+linkedin_username: dorothy awino
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
