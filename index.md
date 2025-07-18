@@ -7,7 +7,9 @@ author_profile: true
 ---
 ---
 layout: home
-title: "Dorothy Awino ONGONGA PORTFOLIO"
+title: "DOROTHY AWINO ONGONGA PORTFOLIO"
+---
+
 excerpt: "CV | PROJECTS | Data Science|DATA ANALYSIS|CLOUD COMPUTING |SOFTWARE DEVELOPMENT| AI & ML|GRAPHIC DESIGN|DIGITAL MARKETING & SEO | VIRTUAL ASSISTANCE|TECHNICAL WRITING"
 author_profile: true
 ---
@@ -42,6 +44,8 @@ AJIRA DIGITAL PROGRAM(IN PARTNERSHIP WITH G.O.K,MASTERCARD FOUNDATION,EMOBILIS,K
 4.DATA ENTRY  AND ANALYSIS USING EXCEL
 5.FREELANCING WORK READINESS
 6.CONTENT WRITING & VIRTUAL ASSISTANCE
+---
+
 ## 💡 TECHNICAL SKILLS
 -.DATA ANALYSIS USING SOFTWARE LIKE POWER BI,TABLEAU,KAGGLE,GOOGLE COLAB,GIT &GITHUB,EXCEL FILES,SCIKIT-LEARN
 2.PROFICIENT IN CODING USING PROGRAMMING LANGUAGES-C++,PYTHON,HTML,CSS,JAVASCRIPT & JAVA,R
@@ -63,6 +67,8 @@ AJIRA DIGITAL PROGRAM(IN PARTNERSHIP WITH G.O.K,MASTERCARD FOUNDATION,EMOBILIS,K
 3.MEMBER OF KENYA RED CROSS-Humanitarian Services
 4.MEMBER OF WILDLIFE CLUB-Environmental and Wildlife conservation Advocacy
 MKU CHAPTER
+
+---
 
 ## 🚀 FEATURED PROJECTS
 
@@ -109,6 +115,8 @@ Translated complex datasets and reports into clean, compelling visual stories us
 
 **Creative CV & Portfolio Layouts**
 Designed personalized, eye-catching CVs and digital portfolios tailored to highlight individual strengths and aesthetics. Used layout tools and custom templates to enhance readability and visual appeal.
+
+---
 
 ### 🤖 Virtual Assistance & Digital Tools
 - *Admin Automation with Python*  
