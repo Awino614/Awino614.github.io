@@ -24,8 +24,10 @@ I am a dynamic and results-driven professional with extensive experience in cust
 
 2019-TO DATE: MOUNT KENYA UNIVERSITY-MAIN CAMPUS
                              BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE.
+                             
 2015-2018: MOI GIRLS-ELDORET
                             KENYA CERTIFICATE OF SECONDARY EDUCATION-B
+                            
 2010-2014: ITIERIO GIRLS’ PRIMARY SCHOOL
                            KENYA CERTIFICATE OF PRIMARY EDUCATION-
 
