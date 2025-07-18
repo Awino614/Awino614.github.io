@@ -189,9 +189,10 @@ Manage end-to-end technology project implementation for clients. Understand the 
 ## 📞 CONTACT ME
 
 - *Email:* ongongaawino614@gmail.com or dorothyawino64@gmail.com
-- *Phone:* +2540101724422 
-- [GitHub](https://github.com/dorothyawino)  
-- [LinkedIn](https://linkedin.com/in/dorothyawino)
+- *Phone:* +254101724422 
+- [GitHub]: http://www.githubaccount.dorothyawino/
+  
+- [LinkedIn]:https://linkedin.com/in/dorothyawino
 
 ---
 
