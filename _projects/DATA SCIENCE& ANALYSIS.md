@@ -3,6 +3,7 @@ title: "Retail Sales Analysis for Business Intelligence"
 excerpt: "Performed end-to-end data analysis including wrangling, EDA, visualization, and business insights using Power BI, Tableau, and Python."
 layout: single
 collection: projects
+author_profile: true
 categories: 
   - Data Science
   - Data Analysis
