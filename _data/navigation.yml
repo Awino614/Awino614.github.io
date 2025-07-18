@@ -1,11 +1,12 @@
 main:
-  - title: "HOME"
-    url: /HOME/
-  - title: "PROJECTS"
-    url: /PROJECTS/
+  - title: "Home"
+    url: /home/
+  - title: "Projects"
+    url: /projects/
   - title: "CV"
-    url: /CV/
-  - title: "PUBLICATIONS"
-    url: /PUBLICATIONS/
-    -title:"VOLUNTARY & HUMANITARIAN WORK"
-    url : /VOLUNTARY & HUMANITARIAN WORK/
+    url: /cv/
+  - title: "Publications"
+    url: /publications/
+    children:
+      - title: "Voluntary & Humanitarian Work"
+        url: /voluntary-humanitarian-work/
