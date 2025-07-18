@@ -65,7 +65,7 @@ include:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /_projects/:name/
   posts:
     output: true
 
