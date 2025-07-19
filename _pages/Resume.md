@@ -55,7 +55,7 @@ author_profile: true
 
   <p>Looking to collaborate or hire? Download my resume or explore my background below.</p>
 
-  👉 <a href="" class="btn--primary" target="_blank" download>Download PDF</a>
+  👉 <a href="assets/OFFICIAL CV FOR DOROTHY AWINO.pdf" class="btn--primary" target="_blank" download>Download PDF</a>
 </section>
 
 <hr>
@@ -64,7 +64,7 @@ author_profile: true
   <h2>🧑‍💼 Professional Summary</h2>
 
   <p>
-    Results-driven <strong>Software & AI/ML Engineer</strong> with 3+ years of experience building/delivering intelligent, scalable solutions across telecom IT, AI, backend systems, and cloud computing. Skilled in <strong>Python, R, JavaScript, SQL, NoSQL, TensorFlow, Scikit-learn, Hugging Face, LangChain, Azure, AWS, Modal, Weights & Biases</strong>, and committed to building ethical and impactful technology.
+    Results-driven <strong>Software & AI/ML Engineer</strong> with extensive experience in building/delivering intelligent, scalable solutions across telecom IT, AI, backend systems, and cloud computing. Skilled in <strong>Python, R, JavaScript, SQL, NoSQL, C++, Scikit-learn, AWS, </strong>, and committed to building ethical and impactful technology.
   </p>
 </section>
 
@@ -80,8 +80,8 @@ author_profile: true
   <h2>🧠 Skills Snapshot</h2>
   <ul>
     <li><strong>AI & ML:</strong> Generative AI, LLM fine-tuning, RAG, Transformers, Model Optimization</li>
-    <li><strong>Tech Stack:</strong> Python, JavaScript, TensorFlow, Keras, Scikit-learn, Django, Flask, SQL, Docker, CI/CD</li>
-    <li><strong>Cloud & DevOps:</strong> Azure ML, AWS, Terraform, Ansible, Bash, GitHub Actions</li>
+    <li><strong>Tech Stack:</strong> Python, JavaScript, Scikit-learn, Django, Flask, SQL, Docker, CI/CD</li>
+    <li><strong>Cloud & DevOps:</strong> AWS ML, AWS, GitHub Actions</li>
     <li><strong>Data Science:</strong> Pandas, NumPy, EDA, Visualization, Power BI, Tableau</li>
   </ul>
   <p>📎 <em>Full resume available in the downloadable PDF above.</em></p>
