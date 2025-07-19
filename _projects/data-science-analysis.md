@@ -1,5 +1,5 @@
 ---
-title: "Retail Sales Analysis for Business Intelligence"
+title: "DATA SCIENCE,AI/ML & ANALYSIS"
 excerpt: "Performed end-to-end data analysis including wrangling, EDA, visualization, and business insights using Power BI, Tableau, and Python."
 date: 2023-11-10 # Add a date for sorting on the projects listing page (YYYY-MM-DD)
 layout: single
