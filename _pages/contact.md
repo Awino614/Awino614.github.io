@@ -89,7 +89,7 @@ author_profile: true
     <ul class="contact-list">
       <li>📧 <strong>Email:</strong> <a href="mailto:ongongaawino614@gmail.com">ongongaawino614@gmail.com</a></li>
       <li>📞 <strong>Phone:</strong> <a href="tel:+254101724422">+254 0101724422</a></li>
-      <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dorothyawino/" target="_blank">linkedin.com/in/adabor</a></li>
+      <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dorothyawino/" target="_blank">linkedin.com/in/dorothyawino</a></li>
       <li>🐙 <strong>GitHub:</strong> <a href="http://www.githubaccount.dorothyawino/" target="_blank">http://www.githubaccount.dorothyawino/</a></li>
       <li>📁 <strong>Resume:</strong> <a href="/resume/">View Resume</a></li>
     </ul>
