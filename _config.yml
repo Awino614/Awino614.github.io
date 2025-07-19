@@ -12,7 +12,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "mint"
 
 # Author details
-author: true
+author:
   name: "Dorothy Awino Ongonga"
   avatar: "/assets/profile-photo.jpg"
   bio: "Go Forth, Above and Beyond For Whatever You Desire Is Already In Existence"
