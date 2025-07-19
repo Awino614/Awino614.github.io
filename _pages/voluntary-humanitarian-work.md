@@ -1,6 +1,6 @@
 ---
 title: "Voluntary Work & Associations"
-permalink: /voluntary-work/
+permalink: /voluntary-humanitarian-work/
 layout: single
 author_profile: true # Set to true if you want your author profile on this page, false otherwise
 ---
