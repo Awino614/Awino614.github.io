@@ -1,11 +1,13 @@
 main:
   - title: "HOME"
-    url:
+    url: /
   - title: "PROJECTS"
     url: /projects/
-  - title: "CV"
-    url: /cv/
+  - title: "RESUME"
+    url: /RESUME/
   - title: "PUBLICATIONS"
     url: /publications/
   - title: "VOLUNTARY-HUMANITARIAN-WORK"
     url: /voluntary-humanitarian-work/
+  - title: "CONTACT"
+    url: /contact/
