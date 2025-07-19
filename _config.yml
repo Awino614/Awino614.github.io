@@ -82,8 +82,7 @@ permalink: /:categories/:title/
 
 # Include folder for custom pages
 include:
-  - _Resume
-  permalink: /resume.md/
+  - _pages
 
 # Collections
 collections:
