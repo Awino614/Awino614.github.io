@@ -1,9 +1,9 @@
 ---
+title: "Resume"
 permalink: /resume/
 layout: single
 author_profile: true
 ---
-
 <style>
   body, h1, h2, h3, p, li {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
