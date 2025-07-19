@@ -30,10 +30,8 @@ Analyzed a retail sales dataset to uncover trends and drive strategic business d
 ### 🔗 Resources
 
 - 📊 [Power BI Dashboard: Regional Sales](https://mkuac-my.sharepoint.com/:u:/g/personal/dorothyawino_mylife_mku_ac_ke/EX6PHzAYmZFOp3xkXg0UHRcBC0d8-xrD_j7p_3u1FznD3A?e=iZ08Sd)
-- 📈 [Power BI Dashboard: Academic Trends](https://mkuac-my.sharepoint.com/:u:/r/personal/dorothyawino_mylife_mku_ac_ke/Documents/POWER%20BI%20STUDENT%20PERFORMANCE%20ANALYSIS.pbix?csf=1&web=1&e=p7axcP)
 - 💻 [GitHub Repo: Classification Models](https://github.com/Awino614/DATA-WRANGLING/blob/main/CLASSIFICATION_MODELS.ipynb)
 - 📁 [GitHub Repo: Titanic EDA](https://github.com/Awino614/DATA-WRANGLING/blob/main/TITANIC_EXPLORATORY_DATA_ANALYSIS.ipynb)
-- 📂 [GitHub Repo: Data Scraping]**(PLEASE PROVIDE THE CORRECT LINK FOR DATA SCRAPING. THIS CURRENTLY LINKS TO TITANIC EDA AGAIN!)**
 - 🔧 [GitHub Repo: Academic Performance](https://github.com/Awino614/DATA-WRANGLING/blob/main/Copy_of_LINK_BETWEEN_STUDENT_WELLBEING_%26_ACADEMICSUCCESS.ipynb)
 
 
