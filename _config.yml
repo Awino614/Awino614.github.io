@@ -3,15 +3,16 @@ email: "ongongaawino614@gmail.com"
 description: "Actuary | FULL STACK Software Developer | Graphic Designer | Data Scientist & ANALYST | AI & ML"
 baseurl: "" 
 url: "https://dorothyawino.github.io"
-github_username: dorothyawino
+github_username: Awino614
 linkedin_username: dorothyawino
+search: true
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "mint"
 
 # Author details
-author:
+author: true
   name: "Dorothy Awino Ongonga"
   avatar: "/assets/profile-photo.jpg"
   bio: "Go Forth, Above and Beyond For Whatever You Desire Is Already In Existence"
@@ -25,6 +26,28 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:ongongaawino614@gmail.com"
+
+include:
+  - _pages
+  - assets/files
+  - search.json
+  - search.html
+
+exclude:
+  - _posts
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+      
 
 # Footer links
 footer:
@@ -77,10 +100,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
   - scope:
       path: "_pages"
       type: pages
