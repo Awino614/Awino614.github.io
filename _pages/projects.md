@@ -15,8 +15,8 @@ Welcome to my projects page! Here you'll find a detailed showcase of my work in 
 {% for project in sorted_projects %}
   <div class="project-card">
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-    <p class="project-category">{{ project.category }}</p> {# Assuming you have a 'category' in your project front matter #}
-    <p>{{ project.description | markdownify | strip_html | truncatewords: 30 }}</p> {# Truncate for summary #}
+    <p class="project-category">{{ project.category }}</p> 
+    <p>{{ project.description | markdownify | strip_html | truncatewords: 30 }}</p> 
     <a href="{{ project.url | relative_url }}" class="read-more-btn">Learn More &rarr;</a>
   </div>
 {% endfor %}
