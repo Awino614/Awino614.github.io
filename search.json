@@ -1,0 +1,17 @@
+---
+layout: null
+sitemap: false
+---
+
+[
+  {% assign searchable_pages = site.pages %}
+  {% for doc in searchable_pages %}
+    {% unless doc.exclude_from_search or doc.layout == "archive" or doc.title == nil %}
+    {
+      "title": {{ doc.title | jsonify }},
+      "url": "{{ doc.url | relative_url }}",
+      "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endunless %}
+  {% endfor %}
+]
