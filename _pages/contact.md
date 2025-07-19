@@ -79,7 +79,7 @@ author_profile: true
 
 <section>
   <h1>📬 Contact Me</h1>
-  <p>I’m always open to impactful opportunities in <strong>Actuary</strong>, <strong>software engineering</strong>, or <strong>data-scientist&analyst</strong>,<strong>AI/ML</strong>,<strong>Graphic Designer</strong>,<strong>Virtual Assistant</strong>. Whether you're hiring, collaborating, or exploring ideas, feel free to connect.</p>
+  <p>I’m always open to impactful opportunities in <strong>|ACTUARY| Data Science|DATA ANALYSIS|CLOUD COMPUTING |SOFTWARE DEVELOPMENT| AI & ML|GRAPHIC DESIGN|DIGITAL MARKETING & SEO | VIRTUAL ASSISTANCE|TECHNICAL WRITING</strong>. Whether you're hiring, collaborating, or exploring ideas, feel free to connect.</p>
 </section>
 
 <section class="glass-card">
@@ -90,7 +90,7 @@ author_profile: true
       <li>📧 <strong>Email:</strong> <a href="mailto:ongongaawino614@gmail.com">ongongaawino614@gmail.com</a></li>
       <li>📞 <strong>Phone:</strong> <a href="tel:+254101724422">+254 0101724422</a></li>
       <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dorothyawino/" target="_blank">linkedin.com/in/adabor</a></li>
-      <li>🐙 <strong>GitHub:</strong> <a href="https://github.com/Awino614" target="_blank">github.com/Amidu-Dabor</a></li>
+      <li>🐙 <strong>GitHub:</strong> <a href="http://www.githubaccount.dorothyawino/" target="_blank">http://www.githubaccount.dorothyawino/</a></li>
       <li>📁 <strong>Resume:</strong> <a href="/resume/">View Resume</a></li>
     </ul>
   </div>
