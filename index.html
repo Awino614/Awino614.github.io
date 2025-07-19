@@ -1,22 +1,17 @@
 ---
 layout: single
 author_profile: true
-description: "DOROTHY AWINO ONGONGA PORTFOLIO"
+description: "DOROTHY AWINO ONGONGA - Actuary | Full Stack Dev | Data Scientist"
 classes: wide
 ---
 
 <style>
   body {
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    color: #333;
+    /* Let Minimal Mistakes handle base font-family and font-size for consistency */
     line-height: 1.6;
   }
 
-  h1, h2, h3, p, li {
-    font-size: 15px;
-  }
-
+  /* Only override what's necessary, let the theme manage most typography */
   h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -42,27 +37,31 @@ classes: wide
     margin-right: auto;
   }
 
+  /* Specific overrides for author profile if needed, otherwise let theme handle */
   .author__name,
   .author__bio,
   .author__urls-wrapper li,
   .author__urls-wrapper a {
-    font-size: 15px !important;
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
-    line-height: 1.6 !important;
-    color: #333 !important;
+    /* font-size: 15px !important; Remove unless absolutely necessary, let theme scale */
+    /* font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important; */
+    /* line-height: 1.6 !important; */
+    /* color: #333 !important; */
   }
 
+  /* Project Carousel and Cards */
   .carousel-container {
     position: relative;
     overflow: hidden;
-    perspective: 1000px;
+    /* perspective: 1000px; Consider removing this for simpler 2D transforms */
+    padding: 1rem 0; /* Add padding for navigation buttons */
   }
 
   .carousel {
     display: flex;
     transition: transform 0.5s ease;
-    gap: 1rem;
+    gap: 1.5rem; /* Increased gap for better spacing */
     will-change: transform;
+    padding: 0 1rem; /* Ensure cards don't touch edges */
   }
 
   .project-card {
@@ -70,24 +69,41 @@ classes: wide
     width: 300px;
     border-radius: 12px;
     background: linear-gradient(145deg, #ffffff, #f0f0f0);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 1.2rem;
-    transform-style: preserve-3d;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    padding: 1.5rem;
+    /* transform-style: preserve-3d; Remove if not using 3D effects */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; /* Flex for better content alignment */
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .project-card:hover {
-    transform: translateY(-10px) rotateX(3deg) rotateY(2deg);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px); /* Simpler lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
   }
 
   .project-card h3 {
     margin-top: 0;
+    font-size: 1.2em; /* Slightly larger title */
+    margin-bottom: 0.8rem;
+  }
+
+  .project-card p {
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+    flex-grow: 1; /* Allow description to take space */
   }
 
   .project-card a {
     display: inline-block;
     margin-top: 0.5rem;
+    text-decoration: none; /* Remove default underline */
+    color: #007acc; /* Theme color for links */
+    font-weight: 500;
+  }
+
+  .project-card a:hover {
     text-decoration: underline;
   }
 
@@ -95,12 +111,21 @@ classes: wide
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    padding: 0.7rem 1rem;
     cursor: pointer;
-    z-index: 1;
+    z-index: 10;
     border-radius: 50%;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .carousel-nav:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
   }
 
   .carousel-nav.left {
@@ -114,110 +139,241 @@ classes: wide
   .category-filter {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
+    gap: 0.6rem; /* Slightly increased gap */
+    margin-bottom: 1.8rem; /* More space below filters */
+    justify-content: center; /* Center filter buttons */
   }
 
   .category-filter button {
-    background: #e0e0e0;
-    border: none;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
+    background: #e9e9e9;
+    border: 1px solid #dcdcdc; /* Add a subtle border */
+    padding: 0.5rem 1.2rem;
+    border-radius: 25px; /* More rounded */
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 0.9em;
+  }
+
+  .category-filter button:hover {
+    background: #dcdcdc;
   }
 
   .category-filter button.active {
-    background: #007acc;
+    background: #007acc; /* Minimal Mistakes primary blue */
     color: white;
-  }<nav>
-  <strong>CV</strong> | PROJECTS | Data Science | DATA ANALYSIS | CLOUD COMPUTING | SOFTWARE DEVELOPMENT | AI & ML | GRAPHIC DESIGN | DIGITAL MARKETING & SEO | VIRTUAL ASSISTANCE | TECHNICAL WRITING
-</nav>
+    border-color: #007acc;
+  }
+</style>
 
 <hr>
 
-<h2>💼 CAREER SUMMARY</h2>
+## 🌟 Welcome to My Portfolio
+
 <p>
-  I am a dynamic and results-driven professional with extensive experience in customer service, delivering exceptional support in fast-paced environments. With a multidisciplinary background in Actuarial Science, Cloud Computing, Graphic Design, Data & AI, Digital Marketing & SEO, and Software Development, I am proficient in CRM systems, Power BI, SQL, Tableau, Microsoft Office, and various programming languages.
+  Hello! I'm <strong>Dorothy Awino Ongonga</strong>, a dynamic and results-driven professional with a multidisciplinary background at the intersection of **Actuarial Science, Full Stack Software Development, Graphic Design, Data Science & AI/ML, and Cloud Computing**. My passion lies in leveraging analytical precision, technical proficiency, and creative problem-solving to drive innovation and support business growth.
 </p>
 <p>
-  I possess exceptional teamwork skills, community engagement experience, and the ability to leverage sales and marketing strategies to achieve organizational objectives. I am eager to contribute to data-driven decision-making, enhance customer experiences, and support business growth through analytical precision, technical proficiency, and creative problem-solving.
+  With extensive experience in customer service, I excel at delivering exceptional support in fast-paced environments. I am proficient in CRM systems, Power BI, SQL, Tableau, Microsoft Office, and various programming languages. I thrive in collaborative settings, contributing to data-driven decision-making and enhancing user experiences.
 </p>
 
-<hr>
+---
 
-<h2>🚀 FEATURED PROJECTS</h2>
+## 🚀 Featured Projects
 
-<h3>📊 DATA SCIENCE, ANALYSIS & AI</h3>
+<section class="projects-section">
+  <div class="category-filter">
+    <button class="active" data-category="all">All</button>
+    <button data-category="data-ai">Data Science & AI</button>
+    <button data-category="design">Graphic Design</button>
+    <button data-category="software">Software Development</button>
+    <button data-category="digital-marketing">Digital Marketing</button>
+    <button data-category="actuarial">Actuarial Science</button>
+    <button data-category="cloud">Cloud Computing</button>
+    <button data-category="virtual-assistant">Virtual Assistance</button>
+  </div>
+
+  <div class="carousel-container">
+    <div class="carousel" id="projectCarousel">
+      <div class="project-card" data-category="data-ai">
+        <h3>Business Dashboard</h3>
+        <p>Built interactive BI dashboards with Tableau & Power BI for executive reporting, visualizing KPIs and trends.</p>
+        <a href="#link-to-dashboard-project">View Project &rarr;</a>
+      </div>
+      <div class="project-card" data-category="data-ai">
+        <h3>Customer Segmentation</h3>
+        <p>Applied K-means and Hierarchical Clustering on retail data to identify segments and recommend strategies.</p>
+        <a href="#link-to-segmentation-project">View Project &rarr;</a>
+      </div>
+      <div class="project-card" data-category="data-ai">
+        <h3>End-to-End ML Pipeline</h3>
+        <p>Created regression and classification models with Scikit-learn, XGBoost, MLflow, and CI/CD.</p>
+        <a href="#link-to-ml-project">View Project &rarr;</a>
+      </div>
+
+      <div class="project-card" data-category="design">
+        <h3>Animated Educational Videos</h3>
+        <p>Created engaging animated videos using After Effects & Canva for young learners.</p>
+        <a href="#link-to-videos-project">View Project &rarr;</a>
+      </div>
+      <div class="project-card" data-category="design">
+        <h3>Logo & Brand Identity</h3>
+        <p>Delivered complete branding kits, including logos and style guides, for various startups and events.</p>
+        <a href="#link-to-branding-project">View Project &rarr;</a>
+      </div>
+
+      <div class="project-card" data-category="software">
+        <h3>Portfolio Website (This Site!)</h3>
+        <p>Developed and deployed this professional portfolio using Jekyll and GitHub Pages with Minimal Mistakes theme.</p>
+        <a href="https://github.com/dorothyawino/dorothyawino.github.io">View Code &rarr;</a>
+      </div>
+
+      <div class="project-card" data-category="digital-marketing">
+        <h3>SEO Audit & Optimization</h3>
+        <p>Improved a blog site's visibility by 40% through comprehensive keyword optimization and technical SEO strategies.</p>
+        <a href="#link-to-seo-project">View Project &rarr;</a>
+      </div>
+
+      <div class="project-card" data-category="cloud">
+        <h3>AWS Cloud Practitioner</h3>
+        <p>Successfully passed the AWS Certified Cloud Practitioner exam, demonstrating foundational cloud knowledge.</p>
+        <a href="#link-to-aws-details">Learn More &rarr;</a>
+      </div>
+      </div>
+
+    <button class="carousel-nav left" onclick="scrollCarousel(-1)">&lt;</button>
+    <button class="carousel-nav right" onclick="scrollCarousel(1)">&gt;</button>
+  </div>
+  <p style="text-align: center; margin-top: 2rem;">
+    For a more comprehensive look at my work, visit the <a href="{{ '/projects/' | relative_url }}">Projects page</a>.
+  </p>
+</section>
+
+---
+
+## 🌟 Key Expertise Areas
+
+<section>
+  <p>My expertise spans a range of disciplines, allowing me to approach challenges with a holistic perspective:</p>
+
+  <h3>📊 Data Science, Analysis & AI</h3>
+  <ul>
+    <li><strong>Business Intelligence:</strong> Crafting interactive dashboards (Tableau, Power BI) for executive reporting and KPI visualization.</li>
+    <li><strong>Data Mining & Machine Learning:</strong> Applying clustering (K-means, Hierarchical), regression, and classification models (Scikit-learn, XGBoost) for predictive insights.</li>
+    <li><strong>Data Engineering:</strong> Automating web scraping (BeautifulSoup) and building data pipelines for efficient data flow.</li>
+    <li><strong>Deep Learning:</strong> Developing and monitoring CNNs (TensorFlow, Keras) for advanced image classification.</li>
+    <li><strong>MLOps & Deployment:</strong> Dockerizing models and deploying them using FastAPI, with tracking via MLflow.</li>
+    <li><strong>Exploratory Data Analysis (EDA):</strong> Proficient in data wrangling and visualizing complex datasets for actionable insights.</li>
+  </ul>
+
+  <h3>🎨 Graphic Design & Branding</h3>
+  <ul>
+    <li><strong>Visual Content Creation:</strong> Designing animated educational videos (After Effects, Canva), logos, brand identities, posters, and infographics (Illustrator, Canva).</li>
+    <li><strong>Audio Production:</strong> Producing professional voice-over content for various media via platforms like Voice123.</li>
+    <li><strong>Personal Branding:</strong> Creating creative CVs and digital portfolio layouts that stand out.</li>
+  </ul>
+
+  <h3>💻 Software Development</h3>
+  <ul>
+    <li><strong>Full Stack Development:</strong> Building robust applications with a focus on both front-end and back-end logic.</li>
+    <li><strong>Static Site Generation:</strong> Experienced with Jekyll for building fast, secure, and easily maintainable websites like this portfolio.</li>
+  </ul>
+
+  <h3>☁ Cloud Computing</h3>
+  <ul>
+    <li><strong>AWS Certified Cloud Practitioner:</strong> Demonstrating foundational knowledge in AWS cloud services, architecture, security, and economics.</li>
+    <li><strong>Cloud Operations:</strong> Understanding of data and service migration to cloud infrastructures.</li>
+  </ul>
+
+  <h3>📈 Digital Marketing & SEO</h3>
+  <ul>
+    <li><strong>SEO Strategy:</strong> Conducting SEO audits, keyword optimization, and improving organic visibility.</li>
+    <li><strong>Campaign Management:</strong> Creating and managing Facebook Ads campaigns with targeted audience strategies.</li>
+    <li><strong>Web Development:</strong> Building responsive and SEO-optimized WordPress websites.</li>
+    <li><strong>Social Media Engagement:</strong> Executing effective marketing plans with engaging content across platforms.</li>
+  </ul>
+
+  <h3>📉 Actuarial Science</h3>
+  <ul>
+    <li><strong>Statistical Modeling:</strong> Applying survival models (Kaplan-Meier, Weibull) for demographic and life table analysis.</li>
+  </ul>
+
+  <h3>🤖 Virtual Assistance & Digital Tools</h3>
+  <ul>
+    <li><strong>Process Automation:</strong> Developing Python scripts for administrative tasks like email sorting and report generation.</li>
+  </ul>
+</section>
+
+---
+
+## 🤝 Let's Connect!
+
+<p>
+  I'm always eager to discuss new opportunities, collaborations, or innovative projects. Feel free to reach out to me:
+</p>
 <ul>
-  <li><strong>Business Dashboard (Tableau & Power BI):</strong> Built interactive BI dashboards for executive reporting, visualizing KPIs and trends in marketing, sales, and customer retention.</li>
-  <li><strong>Customer Segmentation:</strong> Applied K-means and Hierarchical Clustering on retail data to identify segments and recommend strategies.</li>
-  <li><strong>Web Scraping & Data Pipeline Automation:</strong> Used BeautifulSoup and cron jobs to automate web data scraping and cloud storage for dashboards.</li>
-  <li><strong>End-to-End ML Pipeline:</strong> Created regression and classification models with Scikit-learn, XGBoost, MLflow, and CI/CD.</li>
-  <li><strong>Exploratory Data Analysis (EDA):</strong> Wrangled messy datasets and visualized insights for stakeholders.</li>
-  <li><strong>Deep Learning for Image Classification:</strong> Built CNNs with TensorFlow & Keras and monitored performance via TensorBoard.</li>
-  <li><strong>MLOps & Model Deployment:</strong> Dockerized models, tracked with MLflow, and deployed using FastAPI.</li>
-</ul>
-
-<h3>🎨 Graphic Design & Branding</h3>
-<ul>
-  <li><strong>Animated Educational Videos:</strong> Created videos with After Effects & Canva for young learners.</li>
-  <li><strong>Logo & Brand Identity:</strong> Delivered complete branding kits for startups and events.</li>
-  <li><strong>Posters, Flyers, and Promotions:</strong> Designed visuals aligned with campaign goals.</li>
-  <li><strong>Voice-over Content:</strong> Produced professional audio via Voice123 for explainer videos and ads.</li>
-  <li><strong>Infographics:</strong> Simplified data into visual stories using Illustrator and Canva.</li>
-  <li><strong>Creative CV & Portfolio Layouts:</strong> Designed personalized and visually appealing CVs and digital portfolios.</li>
-</ul>
-
-<h3>🤖 Virtual Assistance & Digital Tools</h3>
-<ul>
-  <li><strong>Admin Automation with Python:</strong> Automated email sorting and report generation scripts.</li>
-</ul>
-
-<h3>📈 Digital Marketing & SEO</h3>
-<ul>
-  <li><strong>SEO Audit:</strong> Improved a blog site's visibility by 40% with keyword optimization.</li>
-  <li><strong>Email Campaign Dashboard:</strong> Tracked KPIs using Tableau dashboards.</li>
-  <li><strong>Google Business Profiles:</strong> Registered and optimized businesses on Google Maps for visibility and trust.</li>
-  <li><strong>Facebook Ads:</strong> Created and managed sponsored campaigns with audience targeting.</li>
-  <li><strong>WordPress Websites:</strong> Built responsive and SEO-optimized websites with blogs and forms.</li>
-  <li><strong>Social Media Marketing:</strong> Executed marketing plans with engaging content for Facebook, Instagram, and WhatsApp.</li>
-  <li><strong>Google Forms for Data Collection:</strong> Created branded forms for lead capture and surveys.</li>
-  <li><strong>Logo & Visual Branding:</strong> Designed logos and visual content for cohesive branding online.</li>
-</ul>
-
-<h3>📉 Actuarial Science</h3>
-<ul>
-  <li><strong>Survival Models for Life Tables:</strong> Used Kaplan-Meier and Weibull distributions on demographic data for survival analysis.</li>
-</ul>
-
-<h3>💻 Software Development</h3>
-<ul>
-  <li><strong>Portfolio Website:</strong> This very website! Built with Jekyll and hosted on GitHub Pages using the Minimal Mistakes theme.</li>
-</ul>
-
-<h3>☁ Cloud Computing</h3>
-<p>Successfully passed the AWS Certified Cloud Practitioner exam.</p>
-
-<h4>Occupations:</h4>
-<ul>
-  <li><strong>Cloud Implementation Engineer:</strong> Manages data and service migration to cloud infrastructures.</li>
-  <li><strong>ICT Consultant:</strong> Advises businesses on optimal use of technology and innovation strategies.</li>
-  <li><strong>IT Infrastructure Analyst:</strong> Monitors and supports hardware, software, and network operations.</li>
-  <li><strong>Technology Implementation Consultant:</strong> Oversees full-cycle software and tech adoption for clients.</li>
-</ul>
-
-<hr>
-
-<h2>📞 CONTACT ME</h2>
-<ul>
-  <li><strong>Email:</strong> ongongaawino614@gmail.com / dorothyawino64@gmail.com</li>
+  <li><strong>Email:</strong> <a href="mailto:ongongaawino614@gmail.com">ongongaawino614@gmail.com</a></li>
   <li><strong>Phone:</strong> +254 101 724 422</li>
-  <li><strong>GitHub:</strong> <a href="https://github.com/dorothyawino">github.com/dorothyawino</a></li>
-  <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/dorothyawino">linkedin.com/in/dorothyawino</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/dorothyawino" target="_blank" rel="noopener noreferrer">github.com/dorothyawino</a></li>
+  <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/dorothyawino" target="_blank" rel="noopener noreferrer">linkedin.com/in/dorothyawino</a></li>
 </ul>
 
 <blockquote>
   <strong>“Data is the new oil, but insight is the engine.”</strong>
 </blockquote>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.getElementById('projectCarousel');
+    const projectCards = Array.from(carousel.children); // Convert HTMLCollection to Array
+    const filterButtons = document.querySelectorAll('.category-filter button');
+    let currentIndex = 0;
+    const cardsPerView = 3; // Adjust based on your design and screen size
+
+    function updateCarouselPosition() {
+      const cardWidth = projectCards[0].offsetWidth; // Get width of one card
+      const gap = parseFloat(getComputedStyle(carousel).gap);
+      const totalShift = (cardWidth + gap) * currentIndex;
+      carousel.style.transform = `translateX(-${totalShift}px)`;
+    }
+
+    // Carousel Navigation
+    window.scrollCarousel = function(direction) {
+      const totalCards = projectCards.filter(card => card.style.display !== 'none').length;
+      const visibleCards = cardsPerView; // Assuming this for calculation
+      const maxIndex = Math.max(0, totalCards - visibleCards);
+
+      currentIndex += direction;
+      if (currentIndex < 0) {
+        currentIndex = 0; // Don't scroll beyond the first card
+      } else if (currentIndex > maxIndex) {
+        currentIndex = maxIndex; // Don't scroll past the last visible set
+      }
+      updateCarouselPosition();
+    };
+
+    // Category Filtering
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Update active button
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+
+        const category = this.dataset.category;
+
+        // Reset carousel position and visibility for filtering
+        currentIndex = 0;
+        projectCards.forEach(card => {
+          if (category === 'all' || card.dataset.category === category) {
+            card.style.display = 'flex'; // Use 'flex' because your CSS sets display:flex
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        updateCarouselPosition(); // Ensure carousel position is reset after filtering
+      });
+    });
+
+    // Initialize carousel on load to correct position
+    updateCarouselPosition();
+  });
+</script>
