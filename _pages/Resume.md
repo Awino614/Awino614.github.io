@@ -55,7 +55,6 @@ author_profile: true
 
   <p>Looking to collaborate or hire? Download my resume or explore my background below.</p>
 
-  👉 <a href="assets/resume.pdf" class="btn--primary" target="_blank" download>Download PDF</a>
 </section>
 
 <hr>
@@ -72,7 +71,7 @@ author_profile: true
   <h2>💼 Experience Highlights</h2>
   <ul>
     <li><strong>AI/ML Engineer – QCell SL:</strong> Developed backend automation and AI models for customer billing and service optimization.</li>
-    <li><strong>ICT Instructor – Competency Development Services:</strong> Delivered hands-on ICT training with 95% student satisfaction across multiple cohorts.</li>
+ 
   </ul>
 </section>
 
